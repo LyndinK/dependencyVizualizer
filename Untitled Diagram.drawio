@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-26T16:49:44.719Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="Ab_RFG2qGYmeygdWMoup" version="14.7.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-26T16:52:09.700Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="XGDI4JcI8e_Lk5hwcA8V" version="14.7.8" type="github">
   <diagram name="Page-1" id="58cdce13-f638-feb5-8d6f-7d28b1aa9fa0">
     <mxGraphModel dx="951" dy="590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -16,8 +16,11 @@
         <mxCell id="382b91b5511bd0f7-6" value="Создание объявления" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#ffffc0;strokeColor=#ff0000;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;" parent="1" vertex="1">
           <mxGeometry x="240" y="120" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="dkL5QAxraKpG1lcgOACZ-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="2a3bc250acf0617d-7" target="dkL5QAxraKpG1lcgOACZ-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="2a3bc250acf0617d-7" value="Реализация" style="swimlane;whiteSpace=wrap;html=1;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
-          <mxGeometry x="360" y="360" width="540" height="170" as="geometry" />
+          <mxGeometry x="210" y="380" width="540" height="170" as="geometry" />
         </mxCell>
         <mxCell id="3cde6dad864a17aa-10" style="edgeStyle=elbowEdgeStyle;html=1;labelBackgroundColor=none;endArrow=open;endSize=8;strokeColor=#ff0000;fontFamily=Verdana;fontSize=12;align=left;" parent="2a3bc250acf0617d-7" source="382b91b5511bd0f7-8" target="3cde6dad864a17aa-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -65,13 +68,20 @@
         <mxCell id="dkL5QAxraKpG1lcgOACZ-18" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" source="dkL5QAxraKpG1lcgOACZ-17" parent="1" target="2a3bc250acf0617d-7">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="860" y="265" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="860" y="280" />
+              <mxPoint x="615" y="280" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="24f968d109e7d6b4-3" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;" parent="1" vertex="1">
-          <mxGeometry x="970" y="440" width="30" height="30" as="geometry" />
+          <mxGeometry x="970" y="450" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3cde6dad864a17aa-12" style="edgeStyle=elbowEdgeStyle;html=1;labelBackgroundColor=none;endArrow=open;endSize=8;strokeColor=#ff0000;fontFamily=Verdana;fontSize=12;align=left;" parent="1" source="3cde6dad864a17aa-2" target="24f968d109e7d6b4-3" edge="1">
+        <mxCell id="dkL5QAxraKpG1lcgOACZ-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="dkL5QAxraKpG1lcgOACZ-24" target="24f968d109e7d6b4-3">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dkL5QAxraKpG1lcgOACZ-24" value="Удаление объявления" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="785" y="445" width="145" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
